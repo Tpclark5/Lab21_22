@@ -1,0 +1,21 @@
+﻿@model Lab21_22.Models.RegistrationDetailsViewModel
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+
+<div class=" ">
+    <h2> Hello @Model.Username</h2>
+    <p> First Name Entered = @Model.FirstName</p>
+    <p> Last Name Entered = @Model.LastName</p>
+    <p> Username Entered = @Model.Username</p>
+    <p> Password Entered = @Model.Password</p>
+    <p> Email Entered = @Model.EmailAddress</p>    
+    <p> Phone Number Entered = @Model.PhoneNumber</p>
+
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

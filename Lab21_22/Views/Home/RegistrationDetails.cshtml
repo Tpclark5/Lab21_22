@@ -1,0 +1,16 @@
+﻿@model Lab21_22.Models.RegistrationDetailsViewModel
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Logged In as @Model.Username</title>
+</head>
+
+<div class=" " >
+    <h2> Hello @Model.Username</h2>
+    <p> Emails will be sent to @Model.EmailAddress</p>
+    <a href ="https://localhost:5001/Home/UserInformation">Click here to View Your Details</a>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
